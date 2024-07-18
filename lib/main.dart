@@ -1,0 +1,186 @@
+import 'package:all_widgets/stack_widget_demo.dart';
+import 'package:flutter/material.dart';
+import 'Card_demo.dart';
+import 'CheckBoxListTile.dart';
+import 'ColoredFilerDemo.dart';
+import 'CupertinoAppScaffoldPageDemo.dart';
+import 'CupertinoSegmentControlDemo.dart';
+import 'CupertinoSlidingSegmentedControlDemo.dart';
+
+import 'Widget_007.dart';
+import 'about_dialogue.dart';
+import 'about_list_tile.dart';
+import 'alert_dialogue_box.dart';
+import 'align_widget_demo.dart';
+import 'animated_align_demo.dart';
+import 'animated_builder_demo.dart';
+import 'animated_container_demo.dart';
+import 'animated_cross_demo.dart';
+import 'animated_icon_demo.dart';
+import 'animated_list_demo.dart';
+import 'animated_model_barrier.dart';
+import 'animated_opacity_demo.dart';
+import 'animated_physical_model.dart';
+import 'animated_positioned_demo.dart';
+import 'animated_rotation_demo.dart';
+import 'animated_size_demp.dart';
+import 'animated_text_style.dart';
+import  'animated_switcher_demo.dart';
+import 'app_bar_demo.dart';
+import 'autocomplete_demo.dart';
+import 'back_drop_filter_demo.dart';
+import 'banner_widget.dart';
+import 'Chip_demo.dart';
+import 'Center_demo.dart';
+import 'AspectRatio_demo.dart';
+import 'bottom_navigation_bar_demo.dart';
+import 'bottom_sheet_demo.dart';
+import 'ChoiceChipDemo.dart';
+import 'CircleAvatarDemo.dart';
+import 'CircularProgressDemo.dart';
+import 'ClipOvalDemo.dart';
+import 'ClipPathDemo.dart';
+import 'ClipRectDemo.dart';
+import 'ClipRRectDemo.dart';
+import 'CloseButtonDemo.dart';
+import 'ColoredBoxDemo.dart';
+import  'constrainedBoxDemo.dart';
+import 'ContainerDemo.dart';
+import 'ColumnDemo.dart';
+import 'CupertinoPageScaffoldDemo.dart';
+import  'CupertinoPageScaffoldDemo.dart';
+import 'CupertinoPageScaffoldDemo.dart';
+import 'CupertinoActivityIndicatorDemo.dart';
+import 'CupertinoAlertDialogDemo.dart';
+import 'CupertinoButtonDemo.dart';
+import  'CupertinoContextMenuDemo.dart';
+import 'CupertinoDatePickerDemo.dart';
+import 'CupertinoPageScaffoldDemo2.dart';
+import 'CupertinoPageRouteDemo.dart';
+import 'CupertinoScrollBarDemo.dart';
+import 'CupertinoSearchTextFieldDemo.dart';
+import 'CupertinoSlider_demo.dart';
+import 'CupertinoSwitchDemo.dart';
+import 'CupertinoTabScaffoldDemo.dart';
+import 'CupertinoTextFieldDemo.dart';
+import 'CupertinoCustomPaintDemo.dart';
+import 'CustomScrollViewDemo.dart';
+import 'TimePickerDemo.dart';
+import 'DatePickerDemo.dart';
+import 'DataTableDemo.dart';
+import 'DateRangePickerDemo.dart';
+import 'DecoratedBoxDemo.dart';
+import 'DecoratedBoxTransitionDemo.dart';
+import 'DismissableWidgetDemo.dart';
+import 'DividerDemo.dart';
+import 'DraggableScrollableDemo.dart';
+import 'DrawerDemo.dart';
+import 'DrawerHeaderDemo.dart';
+import 'DropDownDemo.dart';
+import 'ElevatedButtonDemo.dart';
+import 'ExpandedDemo.dart';
+import 'ExpandedIconDemo.dart';
+import 'ExpandedPanelListDemo.dart';
+import 'ExpansionTileDemo.dart';
+import 'FadeInImageDemo.dart';
+import 'FadeTransitionDemo.dart';
+import 'FilterChipDemo.dart';
+import 'FittedBoxDemo.dart';
+import 'FlexibleWidgetDemo.dart';
+import 'FloatingActionButtonDemo.dart';
+import 'FlowDemo.dart';
+import 'FormKeyDemo.dart';
+import 'FractionalTransitionDemo.dart';
+import 'FractionallySizedBoxDemo.dart';
+import 'GuestureDetectorDemo.dart';
+import 'GridPaperDemo.dart';
+import 'GridTileBarDemo.dart';
+import 'GridViewDemo.dart';
+import 'HeroWidgetDemo.dart';
+import 'IgonePointerDemo.dart';
+import 'IndexedStackDemo.dart';
+import 'InkWellDemo.dart';
+import 'InputChipDemo.dart';
+import 'InteractiveViewerDemo.dart';
+import 'LayoutBuilderDemo.dart';
+import 'LinerProgressIndicatorDemo.dart';
+import 'ListenerDemo.dart';
+import 'ListTileDemo.dart';
+import 'ListViewBuilderDemo.dart';
+import 'ListWheelScrollViewDemo.dart';
+import 'MaterialAppDemo.dart';
+import 'MaterialBanerDemo.dart';
+import 'MaterialBarrierDemo.dart';
+import 'NavigationBarDemo.dart';
+import 'NotificationListenerDemo.dart';
+import 'OffStageDemo.dart';
+import 'OpacityDemo.dart';
+import 'OrientationBuilderDemo.dart';
+import  'OverFlowBarDemo.dart';
+import 'PageViewDemo.dart';
+import 'PhysicalModalDemo.dart';
+import 'PhysicalShapeDemo.dart';
+import 'PlaceHolderDemo.dart';
+import 'PopUpMenuDemo.dart';
+import 'PrefferedSizeDemo.dart';
+import 'RadioDemo.dart';
+import 'RangeSliderDemo.dart';
+import 'RawAutoCompleteTextEditor.dart';
+import 'RawChipDemo.dart';
+import 'ReorderbleListViewDemo.dart';
+import 'RichTextDemo.dart';
+import 'RotatedBoxDemo.dart';
+import 'RotationTransitionDemo.dart';
+import 'ScaffoldWidgetDemo.dart';
+import 'ScrollBarDemo.dart';
+import 'ScaleTranisitionDemo.dart';
+import 'SematicsDemo.dart';
+import 'ShaderMaskDemo.dart';
+//to prevent the keyboard functionalites we can use Shortcut class
+import 'ShortcutsDemo.dart';
+import 'SimpleDialogBoxDemo.dart';
+import 'SingleChildScrollViewDemo.dart';
+import 'SelectableTextDemo.dart';
+import 'SizeTransitionDemo.dart';
+import 'SizedBoxDemo.dart';
+import 'SizedOverFlowBoxDemo.dart';
+import 'SlideTransitionDemo.dart';
+import 'SliderDemo.dart';
+import 'SliverAppBarDemo.dart';
+import 'SliverFixedExtentListDemo.dart';
+import 'SliverGridDemo.dart';
+import 'SliverListDemo.dart';
+import 'SliverOpacityDemo.dart';
+import 'SliverPaddingDemo.dart';
+import 'SliverToBoxAdapterDemo.dart';
+import 'SpacerDemo.dart';
+import 'StepperDemo.dart';
+import 'TabBarDemo.dart';
+import 'TabPageSelectorDemo.dart';
+import 'TableDemo.dart';
+import 'TextFormFieldDemo.dart';
+import 'ToggleButtonsDemo.dart';
+import 'ToolTipDemo.dart';
+import 'TweenAnimationBuilderDemo.dart';
+import 'VerticalDividerDemo.dart';
+import 'VisibilityDemo.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+
+      home: VisibilityDemo()
+    );
+  }
+}
